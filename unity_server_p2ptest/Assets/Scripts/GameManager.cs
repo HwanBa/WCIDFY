@@ -14,7 +14,6 @@ public class GameManager : Singleton<GameManager>
     // Start is called before the first frame update
     void Start()
     {
-        PTPServerManager.Instance.ConnectServer();
     }
 
     // Update is called once per frame
@@ -28,25 +27,29 @@ public class GameManager : Singleton<GameManager>
         C_MOVE _packet = new C_MOVE();
 
         // - MoveTest
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKeyUp(KeyCode.A))
         {
             _packet._input = KeyCode.A;
             PTPServerManager.Instance.SendMessage(_packet);
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKeyUp(KeyCode.D))
         {
             _packet._input = KeyCode.D;
             PTPServerManager.Instance.SendMessage(_packet);
         }
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKeyUp(KeyCode.W))
         {
             _packet._input = KeyCode.W;
             PTPServerManager.Instance.SendMessage(_packet);
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKeyUp(KeyCode.S))
         {
             _packet._input = KeyCode.S;
             PTPServerManager.Instance.SendMessage(_packet);
+        }
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            PTPServerManager.Instance.DisConnectServer();
         }
     }
 
