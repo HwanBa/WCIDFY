@@ -2,6 +2,29 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+
+3D_Mabinogi/Library/
+3D_Mabinogi/Temp/
+3D_Mabinogi/Obj/
+3D_Mabinogi/Build/
+3D_Mabinogi/Builds/
+3D_Mabinogi/Logs/
+3D_Mabinogi/MemoryCaptures/
+3D_Mabinogi/UserSettings/
+3D_Mabinogi/Assets/**/TextMesh Pro
+3D_Mabinogi/**/test_BurstDebugInformation_DoNotShip
+
+2DShootingGame/Library/
+2DShootingGame/Temp/
+2DShootingGame/Obj/
+2DShootingGame/Build/
+2DShootingGame/Builds/
+2DShootingGame/Logs/
+2DShootingGame/MemoryCaptures/
+2DShootingGame/UserSettings/
+2DShootingGame/Assets/**/TextMesh Pro
+2DShootingGame/**/test_BurstDebugInformation_DoNotShip
+
 unity_server_p2ptest/Library/
 unity_server_p2ptest/Temp/
 unity_server_p2ptest/Obj/
