@@ -3,6 +3,17 @@
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
 
+VREduProj/Library/
+VREduProj/Temp/
+VREduProj/Obj/
+VREduProj/Build/
+VREduProj/Builds/
+VREduProj/Logs/
+VREduProj/MemoryCaptures/
+VREduProj/UserSettings/
+VREduProj/Assets/**/TextMesh Pro
+VREduProj/**/test_BurstDebugInformation_DoNotShip
+
 3D_Mabinogi/Library/
 3D_Mabinogi/Temp/
 3D_Mabinogi/Obj/
