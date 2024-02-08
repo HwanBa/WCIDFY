@@ -1,29 +1,15 @@
-# This .gitignore file should be placed at the root of your Unity project directory
+a# This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
 
-VREduProj/Library/
-VREduProj/Temp/
-VREduProj/Obj/
-VREduProj/Build/
-VREduProj/Builds/
-VREduProj/Logs/
-VREduProj/MemoryCaptures/
-VREduProj/UserSettings/
-VREduProj/Assets/**/TextMesh Pro
-VREduProj/**/test_BurstDebugInformation_DoNotShip
-
 3D_Mabinogi/Library/
 3D_Mabinogi/Temp/
-3D_Mabinogi/Obj/
 3D_Mabinogi/Build/
 3D_Mabinogi/Builds/
 3D_Mabinogi/Logs/
-3D_Mabinogi/MemoryCaptures/
 3D_Mabinogi/UserSettings/
 3D_Mabinogi/Assets/**/TextMesh Pro
-3D_Mabinogi/**/test_BurstDebugInformation_DoNotShip
 
 2DShootingGame/Library/
 2DShootingGame/Temp/
